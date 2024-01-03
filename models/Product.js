@@ -27,7 +27,7 @@ Product.init(
     },
     stock: {
       type: DataTypes.INTEGER,
-      validate: {isNumeric: true},
+      validate: {isNumeric: true}
     },
     category_id: {
       type: DataTypes.INTEGER,
@@ -39,7 +39,7 @@ Product.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product',
+    modelName: 'product'
   }
 );
 
